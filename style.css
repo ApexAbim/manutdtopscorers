@@ -1,0 +1,278 @@
+#fpl
+{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    height: 550px;
+    width:1100px;
+    background: #A3CB38;
+    padding: 10px 0 20px 0 ;
+    margin:10px 0 20px 0 ;
+    border-radius: 5px;
+
+}
+
+.index
+{
+  position: absolute;
+  top: 50px;
+  left: 630px;
+  background: #10ac84;
+  height: 180px;
+  width: 300px;
+  z-index: 1000;
+  border-radius: 5px;
+}
+
+.ronaldo
+{
+  position: absolute;
+  top: 35px;
+  left: 10px;
+  background: #EA2027;
+  height: 10px;
+  width: 60px;
+  z-index: 1000;
+}
+
+.rooney
+{
+  position: absolute;
+  top: 55px;
+  left: 10px;
+  background: #222f3e;
+  height: 10px;
+  width: 60px;
+  z-index: 1000;
+}
+
+.berbatov
+{
+  position: absolute;
+  top: 75px;
+  left: 10px;
+  background: #B53471;
+  height: 10px;
+  width: 60px;
+  z-index: 1000;
+}
+
+.zlatan
+{
+  position: absolute;
+  top: 95px;
+  left: 10px;
+  background: #fed330;
+  height: 10px;
+  width: 60px;
+  z-index: 1000;
+}
+
+.lukaku
+{
+  position: absolute;
+  top: 115px;
+  left: 10px;
+  background: #5f27cd;
+  height: 10px;
+  width: 60px;
+  z-index: 1000;
+}
+
+.rvp
+{
+  position: absolute;
+  top: 135px;
+  left: 10px;
+  background: #0652DD;
+  height: 10px;
+  width: 60px;
+  z-index: 1000;
+}
+
+.martial
+{
+  position: absolute;
+  top: 155px;
+  left: 10px;
+  background:  #84817a;
+  height: 10px;
+  width: 60px;
+  z-index: 1000;
+}
+
+/*Names */
+.indexTitle
+{
+  position: absolute;
+  top: 5px;
+  left: 130px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.ronnie
+{
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  font-size: 15px;
+  color: white;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.wazza
+{
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  font-size: 15px;
+  color: white;
+  font-family: 'Yantramanav', sans-serif;
+} 
+   
+.berba
+{
+  position: absolute;
+  top: 70px;
+  left: 80px;
+  font-size: 15px;
+  color: white;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.ibra
+{
+  position: absolute;
+  top: 90px;
+  left: 80px;
+  font-size: 15px;
+  color: white;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.luka
+{
+  position: absolute;
+  top: 110px;
+  left: 80px;
+  font-size: 15px;
+  color: white;
+  font-family: 'Yantramanav', sans-serif;
+} 
+
+.persie
+{
+  position: absolute;
+  top: 130px;
+  left: 80px;
+  font-size: 15px;
+  color: white;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.tony
+{
+  position: absolute;
+  top: 150px;
+  left: 80px;
+  font-size: 15px;
+  color: white;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.ct-chart .ct-bar:nth-child(1) 
+{
+  stroke-width: 35px;
+  stroke: #EA2027;
+}
+
+.ct-chart .ct-bar:nth-child(2) 
+{
+  stroke-width: 35px;
+  stroke: #222f3e;
+}
+
+.ct-chart .ct-bar:nth-child(3)
+ {
+  stroke-width: 35px;
+  stroke: #B53471;
+}
+
+.ct-chart .ct-bar:nth-child(4)
+ {
+  stroke-width: 35px;
+  stroke: #222f3e;
+}
+
+.ct-chart .ct-bar:nth-child(5)
+ {
+  stroke-width: 35px;
+  stroke: #0652DD;
+}
+
+.ct-chart .ct-bar:nth-child(6)
+ {
+  stroke-width: 35px;
+  stroke: #222f3e;
+}
+
+.ct-chart .ct-bar:nth-child(7)
+ {
+  stroke-width: 35px;
+  stroke: #222f3e;
+}
+
+.ct-chart .ct-bar:nth-child(8)
+ {
+  stroke-width: 35px;
+  stroke: #84817a;
+}
+
+.ct-chart .ct-bar:nth-child(9) 
+{
+  stroke-width: 35px;
+  stroke: #fed330;
+}
+
+.ct-chart .ct-bar:nth-child(10)
+ {
+  stroke-width: 35px;
+  stroke: #5f27cd;
+}
+
+
+.ct-grids line {
+    stroke: black;
+    stroke-dasharray: none;
+    opacity: 0.2;
+  }
+
+.ct-labels span {
+    color: black;
+    font-size: 15px;
+  }
+
+  .chartist-tooltip 
+  {
+    opacity: 0;
+    position: absolute;
+    margin: 20px 0 0 10px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #FFF;
+    padding: 5px 15px;
+    border-radius: 4px;
+    font-size: 25px;
+    z-index: 100;
+  }
+  
+  .chartist-tooltip.tooltip-show 
+  {
+    opacity: 1;
+  }
+
+ .ct-axis-title
+ {
+     font-weight: bold;
+ }
